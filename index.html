@@ -20,44 +20,35 @@
           <form class="col-8 mx-auto">
             <div class="input-group">
               <input
-                type="email"
+                type="text"
                 class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
+                id="input"
                 placeholder="what your todo list today"
               />
-              <span type="submit" class="btn btn-primary">Enter</span>
+              <span id="btn" type="submit" class="btn btn-primary">Enter</span>
             </div>
           </form>
         </div>
         <div class="row">
-          <ul class="col-8 mx-auto">
-            <li>
+          <ul id="list" class="col-8 mx-auto">
+            <li id="complete-task">
               Learn Coding
-              <input
-                type="checkbox"
-                aria-label="Checkbox for following text input"
-              />
+              <input type="checkbox" class="checkbox" />
             </li>
             <li>
               Shopping
-              <input
-                type="checkbox"
-                aria-label="Checkbox for following text input"
-              />
+              <input type="checkbox" class="checkbox" />
             </li>
             <li>
               Traveling
-              <input
-                type="checkbox"
-                aria-label="Checkbox for following text input"
-              />
+              <input type="checkbox" class="checkbox" />
             </li>
           </ul>
         </div>
       </div>
     </div>
 
+    <script src="index.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
